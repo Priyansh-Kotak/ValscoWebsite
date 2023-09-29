@@ -26,6 +26,8 @@ function ProductsPage() {
         />{" "}
         // Add the description instead of lorem
         <link rel="canonical" href="/products" />
+
+        
       </Helmet>
 
       <div id="productspage">

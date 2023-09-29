@@ -10,7 +10,7 @@ import { AppProvider } from "../src/components/Blogs/context/BlogContext";
 const root = document.getElementById("root");
 if (root.hasChildNodes()) {
   hydrate(
-    <AppProvider>
+    <AppProvider> 
       <React.StrictMode>
         <HelmetProvider>
           <App />

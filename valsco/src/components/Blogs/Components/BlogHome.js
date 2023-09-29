@@ -30,6 +30,7 @@ export default function BlogHome(props) {
           name="description"
           content="Explore a collection of insightful blog posts related to technology, innovation, and more. Stay updated with the latest trends and discussions in the tech world."
         />
+        <meta name="keywords" content="To be added....." />
       </Helmet>
       <div className="blog-card-container">
         {blogs.map((currentElement) => {
